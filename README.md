@@ -19,7 +19,7 @@ The application is built with the user experience in mind—easy to use, minimal
 # Team Name and Mission:
 
 ## Team Name:
-Collage Creators
+TrackStats
 
 ## Mission:
 Our mission is to help music lovers visualize and share their listening habits through personalized album collages. We aim to make music data more accessible, interactive, and visually engaging, allowing users to turn their listening history into a shareable work of art.
