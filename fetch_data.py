@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = 'e164ca84eeab9a157b0e95cf30c29408'  # Replace with your actual API key
+API_KEY = 'e164ca84eeab9a157b0e95cf30c29408'
 
 
 def fetch_lastfm_top_albums(username, time_range):
