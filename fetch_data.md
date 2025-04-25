@@ -3,7 +3,7 @@ The `fetch_data.py` file is responsible for interfacing with the Last.fm API to 
 
 Key Functions:
 
-### `fetch_lastfm_top_albums(username, time_range)`
+`fetch_lastfm_top_albums(username, time_range)`
 This function fetches the top albums from Last.fm for the given username and time range.
 
 Parameters:
