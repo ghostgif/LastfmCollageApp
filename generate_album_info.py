@@ -1,6 +1,3 @@
-import requests
-
-
 def generate_album_list(album_data):
     """
     Generates a list of album information based on the provided album data.
@@ -9,22 +6,6 @@ def generate_album_list(album_data):
     :param album_data: List of dictionaries containing album information.
                         Each dictionary should have the keys 'album_name', 'artist_name', and 'playcount'.
     :return: List of dictionaries where each dictionary contains album info (album_name, artist_name, playcount).
-
-    Example:
-    album_data = [
-        {'album_name': 'Stop Making Sense (Deluxe Edition)', 'artist_name': 'Talking Heads', 'playcount': 236},
-        {'album_name': 'Blue Rev', 'artist_name': 'Alvvays', 'playcount': 221},
-        ...
-    ]
-
-    Returns:
-    [
-        {'album_name': 'Stop Making Sense (Deluxe Edition)', 'artist_name': 'Talking Heads', 'playcount': 236},
-        {'album_name': 'Blue Rev', 'artist_name': 'Alvvays', 'playcount': 221},
-        ...
-    ]
-
-    If the album data does not match the expected structure, an error message is printed for each invalid album.
     """
     album_list = []  # Initialize an empty list to store the formatted album data.
 
